@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Mansalva&family=Shantell+Sans&display=swap');
+.card{
+    width: 18rem;
+    height: 25rem;
+    border:solid black 0.2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: var( --background-color-cards-container); 
+    font-family: 'Mansalva', cursive;
+    font-family: 'Shantell Sans', cursive;
+    background-color: #B3E5BE;
+    
+}
+
+.card_img{
+
+max-width: 13rem;
+max-height: 12rem;
+border: solid #9DAAAA 0.2px;
+}
+
+.card_subtitle{
+    font-family: 'Mansalva', cursive;
+    font-family: 'Shantell Sans', cursive;
+    
+font-weight: 600;
+}
+
+.card_text{
+text-align: center;
+font-family: 'Mansalva', cursive;
+font-family: 'Shantell Sans', cursive;
+
+}
+.card:hover{
+background-color: #F5FFC9;   
+}
